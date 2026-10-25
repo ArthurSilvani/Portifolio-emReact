@@ -1,0 +1,44 @@
+.cabecalho {
+  background-color: var(--cor-destaque);
+  color: #fafafa;
+  text-align: center;
+  padding: 6vw 24px 40px;
+}
+
+.cabecalho h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+
+.descricao-sobre-mim {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.cabecalho img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  margin: 24px auto;
+  display: block;
+}
+
+.cabecalho a {
+  display: inline-block;
+  color: #fdfdfd;
+  text-decoration: none;
+  border: 2px solid #f7f7f7;
+  padding: 10px 24px;
+  border-radius: 24px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-inline: 10px;
+}
+
+.cabecalho a:hover {
+  background-color: #fefeff;
+  color: var(--cor-destaque);
+}

@@ -1,0 +1,26 @@
+.tech-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tecnologias-fav {
+  text-align: center;
+  background-color: #ffffff;
+  color: #6cd5f2;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  width: auto;
+  height: auto;
+  border-radius: 15%;
+
+}
+
+.tech-list > li:hover {
+  background-color: var(--cor-destaque);
+  color: #ffffff;
+} 
+
+/* Hover é para definir as cores e o que acontece quando passa o mouse */
