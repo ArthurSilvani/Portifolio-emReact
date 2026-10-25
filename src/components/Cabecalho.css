@@ -1,33 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap');
+
 .cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--cor-destaque);
-  color: #fafafa;
-  text-align: center;
-  padding: 6vw 24px 40px;
-}
-
-.cabecalho h1 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-}
-
-
-.descricao-sobre-mim {
-  font-size: 1.1em;
-  margin-bottom: 20px;
+  padding: 30px;
+  width: 100%;
 }
 
 .cabecalho img {
-  width: 180px;
-  height: 180px;
   border-radius: 50%;
-  border: 4px solid #ffffff;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
-  margin: 24px auto;
-  display: block;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;  /* Garante que a imagem não fique achatada ou esticada */
+}
+
+.cabecalho h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #f1f5f9;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+
+.descricao-sobre-mim {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  white-space: pre-line;
+  margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .cabecalho a {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fdfdfd;
   text-decoration: none;
   border: 2px solid #f7f7f7;
@@ -41,4 +55,4 @@
 .cabecalho a:hover {
   background-color: #fefeff;
   color: var(--cor-destaque);
-}
+} 

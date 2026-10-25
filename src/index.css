@@ -17,13 +17,8 @@
   }
 }
 
-
-body {
-  margin: 0;
-}
-
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   border-inline: 1px solid var(--border);
@@ -34,15 +29,20 @@ body {
 }
 
 /* ══════════════════════════════════════════
-   CSS GLOBAL — importado uma vez no main.jsx.
-   Vale para a página inteira: reset, variáveis e body.
-   Os estilos de cada componente ficam no .css ao lado dele.
-   ══════════════════════════════════════════ */
+CSS GLOBAL — importado uma vez no main.jsx.
+Vale para a página inteira: reset, variáveis e body.
+Os estilos de cada componente ficam no .css ao lado dele.
+══════════════════════════════════════════ */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 :root {
@@ -53,7 +53,7 @@ body {
   --cor-cartao: #ffffff;
   --cor-borda: #e0e6e8;
   --espaco: 24px;
-  --largura-maxima: 720px;
+  --largura-maxima: 1000px;
 }
 
 body {

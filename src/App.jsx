@@ -26,8 +26,8 @@ function App() {
     <>
       <Cabecalho 
       nome="Arthur Silvani"
-      emoji="🧑‍💻"
-      descricao="Futuro desenvolvedor, amante de tecnologia e música!"
+      emoji=""
+      descricao={"Futuro \nDesenvolvedor"}
       foto = {foto}
       linkedin="https://www.linkedin.com/in/arthur-tapparo-silvani"
       github="https://github.com/ArthurSilvani"
