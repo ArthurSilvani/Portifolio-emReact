@@ -1,12 +1,12 @@
 :root {
-  --text: #636875;
-  --text-h: #08060d;
+  --text: #596B4B;
+  --text-h: #1E2419;
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -46,12 +46,12 @@ body {
 }
 
 :root {
-  --cor-fundo: #f4f6f7;
-  --cor-texto: #2c3e50;
-  --cor-destaque: #1a5276;
-  --cor-destaque-clara: #d6e9f0;
-  --cor-cartao: #ffffff;
-  --cor-borda: #e0e6e8;
+  --cor-fundo: #F4F6F1;
+  --cor-texto: #1E2419;
+  --cor-destaque: #3B4732;
+  --cor-destaque-clara: #E8EDE3;
+  --cor-cartao: #FFFFFF;
+  --cor-borda: #DCE3D5;
   --espaco: 24px;
   --largura-maxima: 1000px;
 }

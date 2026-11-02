@@ -7,18 +7,14 @@ import Rodape from './components/Rodape.jsx'
 import foto from "./assets/minha_foto.jpg"
 import './App.css'
 
-// ── Dados da página ──────────────────────────────────────
-// Ficam separados do layout. Para trocar o conteúdo,
-// basta editar aqui; os componentes continuam iguais.
-
 const tecnologias = ['Python', 'Java', 'SpringBoot', 'CSS', 'HTML', 'JavaScript', 'PostgreSQL', 'React']
 
 const estudos = [
-  'Arquitetura de Software',
-  'System Design',
-  'Cloud Computing',
-  'DevOps',
-  'Inteligência Artificial',
+  'Desenvolver',
+  'Estudar',
+  'Ouvir rock',
+  'Codar',
+  'Assistir filmes',
 ]
 
 function App() {
@@ -40,9 +36,9 @@ function App() {
             Trabalho com assistência a usúarios, gerenciamento de firewall e VLANs.
           </p>
           <p>
-            Sou um ser comunicativo, extrovertido. No meu tempo livre gosto de jogar, 
+            Sou uma pessoa comunicativa e extrovertida. No meu tempo livre gosto de jogar, 
             gosto de ouvir músicas (rock) e tomar chimarrão,
-            além de gostar de estudar e aprender coisas novas. 
+            além de gostar de estudar. Sempre que consigo busco estar estudando.
           </p>
         </Secao>
 
@@ -54,14 +50,14 @@ function App() {
           <ListaNumerada itens={estudos} />
         </Secao>
 
-        <Secao titulo="Objetivos🎯">
+        <Secao titulo="Objetivos">
           <p>
             Criar novos softwares, aplicações web e poder automatizar tudo que eu puder.
           </p>
         </Secao>
 
-        <Secao titulo="Uma frase que me representa">
-          <Citacao texto="O problema é sempre o usuário! 😂" />
+        <Secao titulo="Uma frase que me inspira">
+          <Citacao texto="Quanto menos inteligente um homem é, menos misteriosa lhe parece a existência."/>
         </Secao>        
       </main>
 
